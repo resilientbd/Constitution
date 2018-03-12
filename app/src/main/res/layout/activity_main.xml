@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rubel.rubelrana.constitution.MainActivity">
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="প্রস্তাবনা"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn1"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="প্রজাতন্ত্র"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn2"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="রাষ্ট্র পরিচালনার মূলনীতি"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn3"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="মৌলিক অধিকার"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn4"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="নির্বাহী বিভাগ"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn5"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="আইনসভা"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn6"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="বিচার বিভাগ"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn7"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="নির্বাচন"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn8"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="মহা হিসাব-নিরীক্ষক ও নিয়ন্ত্রক"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn9"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="বাংলাদেশের কর্মবিভাগ"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn10"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f000"
+        android:text="সংবিধান সংশোধন"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn11"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:text="বিবিধ"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn12"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:text="শর্ট টেকনিক"
+        android:gravity="center"
+        android:background="@drawable/btn_styl"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btn13"/>
+
+</LinearLayout>
+
+</ScrollView>
+</RelativeLayout>
